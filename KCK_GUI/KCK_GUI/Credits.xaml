@@ -1,0 +1,18 @@
+﻿<Window x:Class="KCK_GUI.Credits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KCK_GUI"
+        mc:Ignorable="d"
+        Title="KCK Projekt 2" Height="800" Width="600">
+    <Grid>
+        <Image Source="images\background.png" Stretch="Fill"/>
+        <Image Source="images\logo.png" HorizontalAlignment="Center" Margin="124,0,138,560" Width="338" RenderTransformOrigin="-0.166,0.504" />
+        <Label Content="Statek https://www.cometh.io/" Foreground="white" Margin="10,250,196,229" FontSize="20"/>
+        <Label Content="Przeciwnicy https://opengameart.org/content/spaceship-boss " Foreground="White" FontSize="20" Margin="10,280,10,397" />
+        <Label Content="Tło https://orsted.com/en/explore/space-safari" Foreground="White" FontSize="20" Margin="10,310,-10,-320" />
+        <Button Content="Back" HorizontalAlignment="Center" Margin="155,380,155,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Height="20"/>
+
+    </Grid>
+</Window>
